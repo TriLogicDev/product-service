@@ -9,7 +9,7 @@ typealias `$` = Money
 class Money(private var value: BigDecimal) {
 	constructor(long: Long) : this(BigDecimal.valueOf(long))
 
-	constructor(double: Double) : this(BigDecimal.valueOf(double))
+	constructor(double: Double) : this(BigDecimal(double.toString()))
 
 	operator fun plusAssign(money: Money) {
 		value += money.value

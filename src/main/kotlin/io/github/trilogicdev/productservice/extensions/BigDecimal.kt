@@ -1,6 +1,6 @@
 package io.github.trilogicdev.productservice.extensions
 
-import com.pauloelienay.productservice.utils.`$`
+import io.github.trilogicdev.productservice.utils.`$`
 import java.math.BigDecimal
 
 fun BigDecimal.toMoney() = `$`(this)

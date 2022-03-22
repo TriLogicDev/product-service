@@ -1,8 +1,8 @@
-package com.pauloelienay.productservice.utils
+package io.github.trilogicdev.productservice.utils
 
-import java.math.BigDecimal
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import java.math.BigDecimal
 
 internal class MoneyTest {
 	@Test

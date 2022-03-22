@@ -1,10 +1,9 @@
-package com.pauloelienay.productservice.converters
+package io.github.trilogicdev.productservice.converters
 
-import com.pauloelienay.productservice.utils.`$`
-import io.github.trilogicdev.productservice.converters.MoneyConverter
-import java.math.BigDecimal.TEN
+import io.github.trilogicdev.productservice.utils.`$`
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import java.math.BigDecimal.TEN
 
 internal class MoneyConverterTest {
 
